@@ -6,9 +6,6 @@ export default class blog extends Component {
     return (
       <div>
         this is our blog page
-        <div>
-          <Link to="/">Home Page</Link>
-        </div>
       </div>
     )
   }
