@@ -1,10 +1,13 @@
 import React from 'react'
+import Layout from '../components/Layout'
 
 const products = () => {
   return (
-    <div>
-      <h1>this products page</h1>
-    </div>
+    <Layout>
+      <div>
+        <h1>this products page</h1>
+      </div>
+    </Layout>  
   )
 }
 

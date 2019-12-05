@@ -1,10 +1,11 @@
 import React from "react"
-import Navbar from '../components/Navbar'
+import Layout from '../components/Layout'
 
 export default () => (
-  <div>
-    <Navbar />
-    <h1>this is our home page</h1>
-    Hello world!
-  </div>
+  <Layout>
+    <div>
+      <h1>this is our home page</h1>
+      Hello world!
+    </div>
+  </Layout>
 )
