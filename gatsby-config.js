@@ -5,6 +5,12 @@
  */
 
 module.exports = {
+  siteMetadate: {
+    title: 'tutorial',
+    description: 'just some description about our side',
+    author: '@tahara',
+    data: ['item1', 'item2']
+  },
   plugins: [
     `gatsby-plugin-sass`,`gatsby-plugin-styled-components`
   ],
